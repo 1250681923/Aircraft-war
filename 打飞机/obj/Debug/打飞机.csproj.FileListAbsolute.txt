@@ -1,18 +1,10 @@
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.exe.config
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.exe
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.pdb
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.csprojResolveAssemblyReference.cache
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.Form1.resources
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.Properties.Resources.resources
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.csproj.GenerateResource.Cache
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.exe
-C:\Users\SpringRain\Desktop\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.pdb
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.exe.config
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.exe
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.pdb
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.exe
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\bin\Debug\打飞机.pdb
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.csprojResolveAssemblyReference.cache
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.Form1.resources
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.Properties.Resources.resources
-C:\Users\SpringRain\Desktop\公开课第一天\飞机大战公开课第一天\打飞机\obj\Debug\打飞机.csproj.GenerateResource.Cache
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\bin\Debug\打飞机.exe.config
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\bin\Debug\打飞机.exe
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\bin\Debug\打飞机.pdb
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.csprojAssemblyReference.cache
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.Form1.resources
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.Properties.Resources.resources
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.csproj.GenerateResource.cache
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.csproj.CoreCompileInputs.cache
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.exe
+C:\Users\12506\OneDrive\Desktop\新建文件夹 (3)\打飞机\obj\Debug\打飞机.pdb
