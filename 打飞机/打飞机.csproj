@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F6B2EBA-4943-4A0D-B9E9-01906F71467D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>打飞机</RootNamespace>
+    <AssemblyName>打飞机</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackGround.cs" />
+    <Compile Include="Boom.cs" />
+    <Compile Include="EnemyBoom.cs" />
+    <Compile Include="EnemyZiDan.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObject.cs" />
+    <Compile Include="HeroBoom.cs" />
+    <Compile Include="HeroZiDan.cs" />
+    <Compile Include="PlaneEnemy.cs" />
+    <Compile Include="PlaneFather.cs" />
+    <Compile Include="PlaneHero.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleObject.cs" />
+    <Compile Include="ZiDan.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achievement.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achievement.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_spaceship_flying.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_spaceship_flying.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_nor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy0_down4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_down4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1_hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_down6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2_n2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_music.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_over.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_over.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_pause_nor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_pause_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_resume_nor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_resume_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_bomb.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_bomb.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_double_laser.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_double_laser.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero_blowup_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero_blowup_n2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero_blowup_n3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero_blowup_n4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon72x72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Atlas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out_porp.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out_porp.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prop_type_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prop_type_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\use_bomb.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\use_bomb.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
